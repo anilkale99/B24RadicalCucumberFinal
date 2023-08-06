@@ -46,10 +46,16 @@
 		    <scope>test</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.json/json -->
-		<dependency>
+		<!--dependency>
 		    <groupId>org.json</groupId>
 		    <artifactId>json</artifactId>
 		    <version>20230618</version>
+		</dependency-->
+		
+		<dependency>
+		    <groupId>org.json</groupId>
+		    <artifactId>json</artifactId>
+		    <version>20180813</version>
 		</dependency>
 		
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
@@ -70,7 +76,15 @@
 		    <artifactId>extentreports-cucumber7-adapter</artifactId>
 		    <version>1.13.0</version>
 		</dependency>
-		 </dependencies>
+		<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-core -->
+		<dependency>
+		    <groupId>org.hamcrest</groupId>
+		    <artifactId>hamcrest-core</artifactId>
+		    <version>2.2</version>
+		    <scope>test</scope>
+		</dependency>
+
+</dependencies>
 
 
 		  <build>
