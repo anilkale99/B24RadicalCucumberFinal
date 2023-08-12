@@ -1,5 +1,5 @@
-
-Feature: valdiate POST request
+@Regression
+Feature: valdiate POST request with tags3
  
     Scenario: 1.Validate you are able to create data in system
     Given post the data to create user 
@@ -39,7 +39,7 @@ Feature: valdiate POST request
     Then validate id created for user with non zero value
     
     
-    
+    @smoke
     Scenario: 6.Validate you are able to create user and delete the user
     Given post the data to create user from file with updated fields
     |name|

@@ -1,5 +1,5 @@
 
-Feature: valdiate POST request
+Feature: valdiate POST request with tags2
  
     Scenario: 1.Validate you are able to create data in system
     Given post the data to create user 

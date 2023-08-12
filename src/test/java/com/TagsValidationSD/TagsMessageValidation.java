@@ -1,4 +1,4 @@
-package com.PostMessageValidationSD;
+package com.TagsValidationSD;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -22,7 +22,7 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
 
-public class PostMessageValidation {
+public class TagsMessageValidation {
 	Response response = null;
 	String id = null;
 	
