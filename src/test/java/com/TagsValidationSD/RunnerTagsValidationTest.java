@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 		tags="@smoke and @Regression",
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport.html",
-				"json:target/cucumber-report1999.json",
+				"json:target/cucumber-report6.json",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:target/ExtentReport1.html"
 		}
 		)
