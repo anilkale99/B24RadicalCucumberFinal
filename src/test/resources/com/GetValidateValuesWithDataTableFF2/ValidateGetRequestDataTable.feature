@@ -1,5 +1,5 @@
 
-Feature: valdiate Get request
+Feature: valdiate Get request basic
 
   
     
