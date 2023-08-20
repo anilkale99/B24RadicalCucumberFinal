@@ -19,5 +19,7 @@ Feature: valdiate Get request basic
 		    |	books[0].author			|Richard E. Silverman								|
 		    |	books[0].publisher	|O'Reilly Media											|
 		    |	books[1].title			|1Learning JavaScript Design Patterns|
+#	  Then validate status code
+#	  Then validate resonse
 	     
    
